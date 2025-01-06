@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily : {
-        'Roboto' : ['"Roboto Condensed"']
+        'Roboto' : ['"Roboto Condensed"'],
+        'OpenSans' : ['"Open Sans"']
       },
       keyframes : {
         appear : {

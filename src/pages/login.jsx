@@ -6,7 +6,7 @@ function Login() {
         <div className="flex  relative  h-full w-full gap-5 ">
             <div className="w-full h-full flex  bg-[#e4e4e4]">
                 <section className="flex flex-col gap-5  h-full w-1/2 p-12   justify-center items-center animate-[appear_1s_ease-in-out_1]">
-                    <div className="p-10 flex flex-col gap-10 border border-gray-600 rounded-xl">
+                    <div className="p-10 flex flex-col gap-10 border border-gray-600 rounded-xl bg-[#f6f7f8]">
                         <section className="flex flex-col justify-center items-center">
                             <h1 className="text-2xl">¡Bienvenido de nuevo!</h1>
                             <h4 className="text-xs">
@@ -17,7 +17,7 @@ function Login() {
                            
                             <UserInput></UserInput>
                             <PasswordInput></PasswordInput>
-                            <button className="border border-gray-800 p-3 rounded-md hover:bg-[#204ba5] hover:text-white duration-700">Iniciar Sesion</button>
+                            <button className="border border-gray-800 p-3 rounded-md bg-[#204ba5] text-white duration-700">Iniciar Sesion</button>
                             <div className="flex items-center gap-20 justify-between">
                                 <div className="flex gap-1">
                                     <label htmlFor="remember-me-checkbox">Recuerdame</label>
