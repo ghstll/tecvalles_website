@@ -5,7 +5,7 @@ function CoursesTeacher(){
                 <h1 className="text-2xl">Tus cursos</h1>
             </header>
             <div className="font-OpenSans">
-                <h1>Aun no te han asignado a ningun curso</h1>
+                <h1 className="text-red-800 font-semibold text-xl">Aun no te han asignado a ningun curso</h1>
             </div>
         </section>
 
@@ -13,3 +13,7 @@ function CoursesTeacher(){
 }
 
 export default CoursesTeacher
+
+
+
+
